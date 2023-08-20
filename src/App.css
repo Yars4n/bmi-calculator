@@ -6,7 +6,7 @@
   padding: 0;
   font-family: 'Inter';
   box-sizing: border-box;
-  overflow-x: hidden;
+  
  }
 
  input::-webkit-outer-spin-button,
@@ -34,6 +34,7 @@ input[type=number] {
   align-items: center;
   justify-content: center;
   width: 100%;
+ 
   
  
   
@@ -696,7 +697,16 @@ label {
   }
   
   .container {
-    width: 90%;
+    max-width: 100%;
+    
+  }
+   
+  .label {
+    font-size: 14px;
+  }
+   
+  .radio-container {
+    width: 100%;
   }
 
   .container > * {
@@ -717,6 +727,23 @@ label {
   .message {
     border-radius: 16px;
  
+  }
+
+  .input-container {
+    flex-direction: column;
+  }
+
+  .imperial-height {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .inputFoot, .inputInch {
+    width: 100%;
+  }
+
+  .unit-container {
+    width: 100%;
   }
 
   .improve-card {
