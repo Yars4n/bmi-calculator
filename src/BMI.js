@@ -9,7 +9,7 @@ const BMI = (props) => {
     const BMI = weightTrue / (heightInMeters **2);
     return (
         <div className="body">
-            <div className="background"> </div>
+            <div className="background-container"> <div className="background"> </div></div>
             <div className="container">
             
             <div className="left">

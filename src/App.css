@@ -6,7 +6,7 @@
   padding: 0;
   font-family: 'Inter';
   box-sizing: border-box;
-  
+   
  }
 
  input::-webkit-outer-spin-button,
@@ -26,6 +26,19 @@ input[type=number] {
   top: 0;
   left: 0;
   z-index: -1;
+  
+  
+ }
+
+
+ body {
+  overflow-x: hidden;
+ }
+ 
+ .background-container{
+  overflow: hidden;
+  object-fit: cover;
+   
  }
 
  .body {
@@ -34,6 +47,7 @@ input[type=number] {
   align-items: center;
   justify-content: center;
   width: 100%;
+   
  
   
  
